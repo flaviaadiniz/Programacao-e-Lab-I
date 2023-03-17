@@ -1,14 +1,18 @@
+# Variáveis
+
 idade = 38
 x = "Teste"
 
 print("Variável idade =", idade)
-print("Variável x =", x, "!")
+print("Variável x =", x)
 print()
 
-#nome = input("Digite seu nome: ")
-#print("Seu nome é:", nome)
-#print()
+# input recebe dados via teclado e salva na variável indicada, sempre em formato STRING:
+nome = input("Digite seu nome: ")
+print("Seu nome é:", nome)
+print()
 
+# para salvar dados de outro tipo, colocar o tipo na frente de input:
 preco = float(input("Digite o preço do produto: "))
 print("O preço é ", preco)
 print("-------------------------------------------------")
