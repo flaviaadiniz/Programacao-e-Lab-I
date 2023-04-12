@@ -1,9 +1,11 @@
+package aluno;
+
 public class Aluno {
 
-    String nome;
-    String matricula;
-    double grauA;
-    double grauB;
+    private String nome;
+    private String matricula;
+    private double grauA;
+    private double grauB;
 
     public Aluno(String nome, String matricula, double grauA, double grauB) {
         this.nome = nome;
