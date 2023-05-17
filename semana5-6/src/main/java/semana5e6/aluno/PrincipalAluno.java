@@ -1,4 +1,4 @@
-package aluno;
+package semana5e6.aluno;
 
 import java.util.Scanner;
 

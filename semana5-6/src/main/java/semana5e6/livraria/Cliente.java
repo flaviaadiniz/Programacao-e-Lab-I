@@ -1,4 +1,4 @@
-package livraria;
+package semana5e6.livraria;
 
 public class Cliente {
 
