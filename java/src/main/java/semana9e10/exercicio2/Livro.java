@@ -1,4 +1,4 @@
-package semana9e10;
+package semana9e10.exercicio2;
 
 public class Livro {
 
