@@ -4,6 +4,10 @@ public class Novo extends Livro {
 
     private double desconto;
 
+    public Novo() {
+
+    }
+
     public Novo(String titulo, String autor, double preco, int anoCriacao, double desconto) {
         super(titulo, autor, preco, anoCriacao);
         this.desconto = desconto;
@@ -20,7 +24,6 @@ public class Novo extends Livro {
     @Override
     public String toString() {
         return super.toString() +
-                "Novo [" +
                 "Desconto: " + desconto +
                 ']';
     }

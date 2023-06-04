@@ -52,11 +52,10 @@ public class Livro {
 
     @Override
     public String toString() {
-        return "Livro [" +
-                "titulo: " + titulo + '\'' +
-                ", autor: " + autor + '\'' +
-                ", preco: " + preco +
-                ", ano de criação: " + anoCriacao +
-                "]";
+        return  "[Título: " + titulo +
+                ", Autor: " + autor +
+                ", Preço: " + preco +
+                ", Ano de Criação: " + anoCriacao +
+                ", ";
     }
 }
