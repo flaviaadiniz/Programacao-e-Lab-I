@@ -7,6 +7,10 @@ public class Livro {
     private double preco;
     private int anoCriacao;
 
+    public Livro() {
+
+    }
+
     public Livro(String titulo, String autor, double preco, int anoCriacao) {
         this.titulo = titulo;
         this.autor = autor;
