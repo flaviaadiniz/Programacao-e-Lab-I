@@ -13,7 +13,7 @@ public class Biblioteca {
     public boolean insereLivro(Livro livro) {
         boolean livroInserido = false;
         for (int i = 0; i < livros.length; i++) {
-            if (livros[i] != null) {
+            if (livros[i] == null) {
                 livros[i] = livro;
                 livroInserido = true;
                 break;
@@ -59,18 +59,9 @@ public class Biblioteca {
         }
     }
 
-    /*public void imprimeLivroPorAno() {
-        Livro[] livrosOrdemDecrescente = new Livro[livros.length];
-        int anoInicial = livros[0].getAnoCriacao();
-
-        for (int i = 0; i < livros.length; i++) {
-            for (int j = 1; j < livros.length; j++) {
-                if (livros[j].getAnoCriacao() > livros[i].getAnoCriacao()) {
-                    anoInicial = livros[j].getAnoCriacao();
-                }
-            }
-        }
-    }*/
+    public void imprimeLivroPorAno() {
+        
+    }
 
     public double calculaMediaPrecos() {
         double somaValores = 0;
